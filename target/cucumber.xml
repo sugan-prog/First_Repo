@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.836" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-02T14:45:29.994044100Z">
+<testcase classname="OMR Branch Hotel Search Functionality" name="Verify header contains selected room type - #1.1" time="15.324">
+<system-out><![CDATA[
+Given User is on the OMR Branch hotel page..................................passed
+When User enters "sugancse27@gmail.com" and "Sugandhi@123"..................passed
+Then User should verify success message after login "Welcome Sugandhi"......passed
+When User search hotel "Tamil Nadu", "Chennai", "Suite", "25-11-2026", "26-11-2026", "1-One", "2-Two" and "1".passed
+Then User should verify after search hotel success message "Select Hotel"...passed
+And User should verify the header contains "Suite"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
